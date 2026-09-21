@@ -1,8 +1,8 @@
 # 3betmedia Press Kit
 
-Logos, brand colours, services and contact for [3betmedia](https://3betmedia.com/), the iGaming and Web3 content agency.
+Logos, brand colours, services and contact for [3betmedia](https://3betmedia.com/), the content engine for iGaming and Web3.
 
-3betmedia runs creator partnerships, KOL campaigns, UGC, short-form video, clipping and AI video for casinos, slots, prediction markets and Web3 brands.
+3betmedia creates UGC, AI content and clips, and partners with KOLs, influencers and streamers to reach the right audience, build trust and drive sign-ups.
 
 - Website: https://3betmedia.com/
 - Press kit page: https://bitmamba24.github.io/3betmedia-press-kit/
@@ -12,13 +12,12 @@ Logos, brand colours, services and contact for [3betmedia](https://3betmedia.com
 
 | File | Use |
 |---|---|
-| `assets/3betmedia-wordmark-light.svg` / `.png` | Wordmark for dark backgrounds |
-| `assets/3betmedia-wordmark-dark.svg` / `.png` | Wordmark for light backgrounds |
-| `assets/3betmedia-mark.svg` | Compact mark |
-| `assets/chip-face.webp` | Branded chip, 1024x1024 |
-| `assets/social-card.png` | Social card, 1200x630 |
-| `assets/3betmedia-palette.svg` | Colour palette |
+| `assets/3betmedia-wordmark-dark.png` | Wordmark for light backgrounds (transparent, 1460x290) |
+| `assets/3betmedia-wordmark-light.png` | Wordmark for dark backgrounds (transparent, 1460x290) |
+| `assets/ice-chip-1024.png` | Ice poker chip, transparent 1024x1024 |
+| `assets/apple-touch-icon-ice-v3.png` | App icon, 180x180 |
+| `assets/social-card.jpg` | Social card, 1200x630 |
 
-Type: Space Grotesk (display), Geist (body).
+Typeface: Manrope (wordmark 800, headlines 500). Colours: #E9F2F6 background, #102D40 text, #16374B buttons, #7191A2 muted, #071B2A dark sections.
 
 © 2026 3betmedia

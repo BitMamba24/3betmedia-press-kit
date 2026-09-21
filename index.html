@@ -4,99 +4,153 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>3betmedia Press Kit</title>
-<meta name="description" content="Press kit for 3betmedia, the iGaming and Web3 content agency. Logos, brand colours, services and contact.">
-<link rel="icon" href="assets/3betmedia-favicon.svg" type="image/svg+xml">
+<meta name="description" content="Press kit for 3betmedia, the content engine for iGaming and Web3. Logos, brand colours, services and contact.">
+<link rel="icon" href="assets/favicon-ice-v3-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon-ice-v3.png">
 <link rel="canonical" href="https://bitmamba24.github.io/3betmedia-press-kit/">
 <meta property="og:title" content="3betmedia Press Kit">
-<meta property="og:description" content="Logos, brand colours, services and contact for 3betmedia, the iGaming and Web3 content agency.">
-<meta property="og:image" content="https://bitmamba24.github.io/3betmedia-press-kit/assets/social-card.png">
+<meta property="og:description" content="Logos, brand colours, services and contact for 3betmedia, the content engine for iGaming and Web3.">
+<meta property="og:image" content="https://bitmamba24.github.io/3betmedia-press-kit/assets/social-card.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Geist:wght@400;500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
-  :root { --bg:#050A14; --bg2:#0B1421; --card:#111E2F; --fg:#F2F6FA; --muted:#B9CADC; --steel:#8FA1B5; --line:#263447; --accent:#C3DCF0; --ink:#061020; }
+  :root { --bg:#e8f0f3; --panel:#f3f6f5; --card:#f3f8fa; --fg:#142c3b; --muted:#526675; --soft:#7191a2; --line:#9cb2bf55; --btn:#16374b; --btn-hover:#285774; --btn-fg:#f4fbff; --focus:#3b94c1; }
   * { box-sizing:border-box; }
-  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 Geist,system-ui,-apple-system,"Segoe UI",sans-serif; }
-  main { max-width:760px; margin:0 auto; padding:48px 16px 80px; }
-  h1, h2, h3 { font-family:"Space Grotesk",system-ui,sans-serif; letter-spacing:-0.02em; }
-  h1 { font-size:2.2rem; margin:28px 0 4px; }
-  h2 { font-size:1.2rem; margin:44px 0 12px; padding-top:18px; border-top:1px solid var(--line); }
-  h3 { font-size:1rem; margin:0 0 4px; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 Manrope,Arial,sans-serif; -webkit-font-smoothing:antialiased; }
+  a { color:inherit; }
+  a:focus-visible { outline:3px solid var(--focus); outline-offset:4px; }
+  header { display:flex; justify-content:space-between; align-items:center; gap:16px; padding:28px 5.5vw; }
+  .wordmark { font-size:32px; font-weight:800; letter-spacing:-1px; text-decoration:none; }
+  .nav-contact { padding:11px 17px; border:1px solid #18354845; border-radius:2px; font-size:13px; font-weight:600; text-decoration:none; }
+  main { max-width:880px; margin:0 auto; padding:40px 16px 80px; }
+  .eyebrow { font-size:10px; letter-spacing:.14em; font-weight:700; text-transform:uppercase; margin:0 0 18px; }
+  h1, h2 { font-weight:500; letter-spacing:-.06em; line-height:1.02; margin:0; }
+  h1 { font-size:clamp(46px,8vw,88px); }
+  h2 { font-size:clamp(30px,4.4vw,48px); margin:0 0 22px; }
+  h2 span { color:var(--soft); }
+  h3 { font-weight:600; letter-spacing:-.03em; font-size:20px; margin:0 0 8px; }
   p { margin:0 0 14px; }
-  .lede { color:var(--muted); font-size:1.15rem; }
-  a { color:var(--accent); }
-  .cta { display:inline-block; background:var(--accent); color:var(--ink); padding:10px 20px; border-radius:999px; text-decoration:none; font-weight:600; }
-  .services { display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:12px; }
-  .services div { background:var(--bg2); border:1px solid var(--line); border-radius:12px; padding:14px; min-width:0; }
-  .services p { color:var(--muted); font-size:.92rem; margin:0; }
-  .assets { display:grid; grid-template-columns:repeat(auto-fill,minmax(160px,1fr)); gap:12px; }
-  .assets a { display:block; background:var(--card); border:1px solid var(--line); border-radius:12px; padding:12px; text-decoration:none; color:var(--fg); font-size:.9rem; min-width:0; }
-  .assets a.light { background:#F2F6FA; color:var(--ink); }
-  .assets img { width:100%; height:80px; object-fit:contain; display:block; margin-bottom:8px; }
-  .swatches { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:10px; }
-  .swatches div { border:1px solid var(--line); border-radius:10px; overflow:hidden; font-size:.85rem; min-width:0; }
-  .swatches span { display:block; height:44px; }
-  .swatches p { margin:0; padding:6px 10px; color:var(--muted); }
-  dl { display:grid; grid-template-columns:max-content 1fr; gap:6px 16px; margin:0; }
-  dt { color:var(--steel); }
+  .lede { font-size:17px; max-width:520px; margin:26px 0 30px; color:var(--muted); }
+  .ice-button { display:inline-flex; gap:32px; align-items:center; background:var(--btn); color:var(--btn-fg); padding:17px 24px; font-size:13px; font-weight:600; text-decoration:none; transition:background .2s; }
+  .ice-button:hover { background:var(--btn-hover); }
+  .hero { display:grid; grid-template-columns:1.3fr 1fr; gap:24px; align-items:center; }
+  .hero img { width:100%; height:auto; min-width:0; }
+  section { margin-top:96px; padding-top:28px; border-top:1px solid var(--line); }
+  .stats { display:grid; grid-template-columns:repeat(4,1fr); gap:18px; }
+  .stats div { min-width:0; }
+  .stats b { display:block; font-size:clamp(30px,4vw,44px); font-weight:500; letter-spacing:-.05em; }
+  .stats span { font-size:12px; color:var(--muted); }
+  .services { display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:16px; }
+  .services div { background:var(--card); border:1px solid #fff; box-shadow:0 16px 32px #31516913; padding:22px; min-width:0; }
+  .services p { font-size:14px; color:var(--muted); margin:0 0 10px; }
+  .services small { font-size:11px; font-weight:700; color:var(--fg); }
+  .muted { color:var(--muted); }
+  .assets { display:grid; grid-template-columns:repeat(auto-fill,minmax(170px,1fr)); gap:14px; }
+  .assets a { display:block; background:var(--card); border:1px solid #fff; padding:14px; text-decoration:none; font-size:13px; font-weight:600; min-width:0; }
+  .assets a.dark { background:#071b2a; color:#f0f8fb; border-color:#071b2a; }
+  .assets img { width:100%; height:90px; object-fit:contain; display:block; margin-bottom:10px; }
+  .swatches { display:grid; grid-template-columns:repeat(auto-fill,minmax(140px,1fr)); gap:12px; }
+  .swatches div { background:var(--card); border:1px solid #fff; min-width:0; font-size:12px; }
+  .swatches span { display:block; height:52px; }
+  .swatches p { margin:0; padding:8px 10px; color:var(--muted); }
+  dl { display:grid; grid-template-columns:max-content 1fr; gap:8px 20px; margin:0; font-size:15px; }
+  dt { color:var(--soft); }
   dd { margin:0; min-width:0; overflow-wrap:anywhere; }
-  footer { margin-top:56px; color:var(--steel); font-size:.9rem; }
+  footer { display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap; padding:36px 5.5vw; font-size:11px; color:#68808e; border-top:1px solid var(--line); margin-top:96px; }
+  @media (max-width:700px) {
+    header { padding:22px 16px; }
+    .wordmark { font-size:28px; }
+    .hero { grid-template-columns:1fr; }
+    .hero img { max-width:280px; }
+    .stats { grid-template-columns:repeat(2,1fr); }
+    section { margin-top:64px; }
+  }
 </style>
 </head>
 <body>
+<header>
+  <a class="wordmark" href="https://3betmedia.com/">3betmedia</a>
+  <a class="nav-contact" href="mailto:info@3betmedia.com">Press contact</a>
+</header>
 <main>
-  <img src="assets/3betmedia-wordmark-light.png" alt="3betmedia" width="200" style="height:auto">
-  <h1>3betmedia Press Kit</h1>
-  <p class="lede">Put your brand in play. Content agency for iGaming and Web3.</p>
-  <p><a class="cta" href="https://3betmedia.com/">Visit 3betmedia.com</a></p>
-
-  <h2>About 3betmedia</h2>
-  <p><a href="https://3betmedia.com/">3betmedia</a> is a content agency for iGaming and Web3 brands. It runs creator partnerships, KOL campaigns, UGC, short-form video, clipping and AI video for casinos, slots, prediction markets and Web3 projects.</p>
-  <p>The team handles the whole chain, from finding the right creators and writing the brief to production, distribution and reporting. Creators. Content. Distribution.</p>
-
-  <h2>Services</h2>
-  <div class="services">
-    <div><h3>Creator partnerships</h3><p>Creator sourcing, campaign management and streamer partnerships.</p></div>
-    <div><h3>KOL campaigns</h3><p>KOL strategy, outreach and reporting across X, YouTube and Telegram.</p></div>
-    <div><h3>UGC production</h3><p>Creative concepts, creator videos and hook testing.</p></div>
-    <div><h3>Short-form video</h3><p>Platform-ready videos for TikTok, Instagram Reels and YouTube Shorts.</p></div>
-    <div><h3>Clipping and distribution</h3><p>Stream highlights, clip production and creator distribution.</p></div>
-    <div><h3>AI video</h3><p>Concept development and AI-assisted production with human creative direction.</p></div>
-  </div>
-  <p style="margin-top:14px">Read more on <a href="https://3betmedia.com/services/casino-streamer-marketing">casino streamer marketing</a>.</p>
-
-  <h2>Fact sheet</h2>
-  <dl>
-    <dt>Name</dt><dd>3betmedia</dd>
-    <dt>Website</dt><dd><a href="https://3betmedia.com/">3betmedia.com</a></dd>
-    <dt>Category</dt><dd>iGaming marketing, Web3 marketing, creator and influencer agency</dd>
-    <dt>Tagline</dt><dd>Put your brand in play.</dd>
-    <dt>Contact</dt><dd><a href="mailto:info@3betmedia.com">info@3betmedia.com</a></dd>
-  </dl>
-
-  <h2>Logos and images</h2>
-  <div class="assets">
-    <a href="assets/3betmedia-wordmark-light.png" download><img src="assets/3betmedia-wordmark-light.png" alt="">Wordmark, light PNG</a>
-    <a class="light" href="assets/3betmedia-wordmark-dark.png" download><img src="assets/3betmedia-wordmark-dark.png" alt="">Wordmark, dark PNG</a>
-    <a href="assets/3betmedia-wordmark-light.svg" download><img src="assets/3betmedia-wordmark-light.png" alt="">Wordmark, light SVG</a>
-    <a class="light" href="assets/3betmedia-wordmark-dark.svg" download><img src="assets/3betmedia-wordmark-dark.png" alt="">Wordmark, dark SVG</a>
-    <a href="assets/3betmedia-mark.svg" download><img src="assets/3betmedia-mark.svg" alt="">Mark, SVG</a>
-    <a href="assets/chip-face.webp" download><img src="assets/chip-face.webp" alt="">Chip, 1024 WebP</a>
-    <a href="assets/social-card.png" download><img src="assets/social-card.png" alt="">Social card, 1200x630</a>
-    <a href="assets/3betmedia-palette.svg" download><img src="assets/3betmedia-palette.svg" alt="">Palette sheet</a>
+  <div class="hero">
+    <div>
+      <p class="eyebrow">Press kit · iGaming and Web3</p>
+      <h1>Your Content Engine</h1>
+      <p class="lede">3betmedia creates UGC, AI content and clips, and partners with KOLs, influencers and streamers to reach the right audience, build trust and drive sign-ups.</p>
+      <a class="ice-button" href="https://3betmedia.com/">Visit 3betmedia.com <span aria-hidden="true">↗</span></a>
+    </div>
+    <img src="assets/ice-chip-1024.png" alt="3betmedia ice poker chip" width="1024" height="1024">
   </div>
 
-  <h2>Colours and type</h2>
-  <div class="swatches">
-    <div><span style="background:#050A14"></span><p>Midnight #050A14</p></div>
-    <div><span style="background:#0B1421"></span><p>Deep Navy #0B1421</p></div>
-    <div><span style="background:#111E2F"></span><p>Navy #111E2F</p></div>
-    <div><span style="background:#F2F6FA"></span><p>Ice White #F2F6FA</p></div>
-    <div><span style="background:#C3DCF0"></span><p>Pale Blue #C3DCF0</p></div>
-    <div><span style="background:#8FA1B5"></span><p>Steel #8FA1B5</p></div>
-  </div>
-  <p style="margin-top:14px">Display and wordmark: Space Grotesk. Body: Geist.</p>
+  <section>
+    <p class="eyebrow">About</p>
+    <h2>Content that turns attention <span>into action.</span></h2>
+    <p class="muted"><a href="https://3betmedia.com/">3betmedia</a> is a content agency for iGaming and Web3 brands: casinos, slots, prediction markets and Web3 projects. From the first script to the creator who posts it, it builds a content pipeline around each brand, planning what to say, who says it and where it appears together.</p>
+  </section>
 
-  <footer>&copy; 2026 <a href="https://3betmedia.com/">3betmedia</a></footer>
+  <section>
+    <p class="eyebrow">A content engine built for scale</p>
+    <div class="stats">
+      <div><b>200+</b><span>Campaigns delivered</span></div>
+      <div><b>50K</b><span>Creators in the network</span></div>
+      <div><b>50K+</b><span>UGC pieces managed</span></div>
+      <div><b>1B</b><span>Content views</span></div>
+    </div>
+  </section>
+
+  <section>
+    <p class="eyebrow">Services</p>
+    <h2>More content, <span>with a clear purpose.</span></h2>
+    <div class="services">
+      <div><h3>UGC content</h3><p>Creator-led videos that explain the offer in a voice the audience recognises.</p><small>Creator sourcing, scripts and short-form production</small></div>
+      <div><h3>AI content</h3><p>AI-assisted video and visual production for campaigns that need more creative options.</p><small>Faceless video, visual concepts and creative variations</small></div>
+      <div><h3>Clipping</h3><p>Streams, podcasts and long-form videos turned into platform-ready clips.</p><small>Highlight selection, editing, captions and distribution</small></div>
+      <div><h3>KOLs and influencers</h3><p>Relevant audiences reached through creators who understand iGaming and Web3.</p><small>Creator matching, outreach and campaign coordination</small></div>
+      <div><h3>Streamers</h3><p>Brands brought into live conversations with relevant streamers.</p><small>Streamer sourcing, live activations and highlight content</small></div>
+      <div><h3>Memes</h3><p>Memes built around the humour and references the audience already shares.</p><small>Meme strategy, creative production and social distribution</small></div>
+    </div>
+  </section>
+
+  <section>
+    <p class="eyebrow">Fact sheet</p>
+    <dl>
+      <dt>Name</dt><dd>3betmedia (one word, lowercase)</dd>
+      <dt>Website</dt><dd><a href="https://3betmedia.com/">3betmedia.com</a></dd>
+      <dt>Category</dt><dd>iGaming and Web3 content agency: UGC, AI content, clipping, KOLs, streamers, memes</dd>
+      <dt>Headline</dt><dd>Your Content Engine for iGaming and Web3</dd>
+      <dt>Contact</dt><dd><a href="mailto:info@3betmedia.com">info@3betmedia.com</a></dd>
+    </dl>
+  </section>
+
+  <section>
+    <p class="eyebrow">Logos and images</p>
+    <div class="assets">
+      <a href="assets/3betmedia-wordmark-dark.png" download><img src="assets/3betmedia-wordmark-dark.png" alt="">Wordmark, for light backgrounds</a>
+      <a class="dark" href="assets/3betmedia-wordmark-light.png" download><img src="assets/3betmedia-wordmark-light.png" alt="">Wordmark, for dark backgrounds</a>
+      <a href="assets/ice-chip-1024.png" download><img src="assets/ice-chip-1024.png" alt="">Ice chip, 1024 PNG</a>
+      <a href="assets/apple-touch-icon-ice-v3.png" download><img src="assets/apple-touch-icon-ice-v3.png" alt="">App icon, 180 PNG</a>
+      <a href="assets/social-card.jpg" download><img src="assets/social-card.jpg" alt="">Social card, 1200x630</a>
+    </div>
+  </section>
+
+  <section>
+    <p class="eyebrow">Colours and type</p>
+    <div class="swatches">
+      <div><span style="background:#e9f2f6"></span><p>Background #E9F2F6</p></div>
+      <div><span style="background:#f3f6f5"></span><p>Surface #F3F6F5</p></div>
+      <div><span style="background:#102d40"></span><p>Text #102D40</p></div>
+      <div><span style="background:#16374b"></span><p>Button #16374B</p></div>
+      <div><span style="background:#7191a2"></span><p>Muted #7191A2</p></div>
+      <div><span style="background:#071b2a"></span><p>Dark section #071B2A</p></div>
+    </div>
+    <p class="muted" style="margin-top:16px">Typeface: Manrope. Wordmark in ExtraBold (800), headlines in Medium (500) with tight tracking.</p>
+  </section>
 </main>
+<footer>
+  <span>© 2026 <a href="https://3betmedia.com/">3betmedia</a></span>
+  <span>Your content engine for iGaming and Web3</span>
+</footer>
 </body>
 </html>
